@@ -5,3 +5,8 @@
  * @LastEditTime: 2019-09-07 14:10:10
  * @LastEditors: Please set LastEditors
  */
+
+const serviceUrl = 'http://test.baixingliangfan.cn/baixing';
+const servicePath = {
+  'homePageContent':serviceUrl+'wxmini/homePageContent',//商品首页信息
+};  

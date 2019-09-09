@@ -7,12 +7,21 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:dio/dio.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
+  @override
+  _HomePageState createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text('首页界面')),
+    return Container(
+      child: Scaffold(
+        appBar: AppBar(title: Text('美好人间')),
+        body: Container(),
+      ),
     );
   }
 }
